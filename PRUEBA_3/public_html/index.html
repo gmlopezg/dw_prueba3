@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet/less" type="text/css" href="styles.less" />
+        <script src="https://cdn.jsdelivr.net/npm/less" ></script> -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  
+  <style>
+            body {font-family: 'Comic Sans MS', cursive, sans-serif;
+                  background-image: url('img/fondo_patas_3.png');
+                  background-attachment: fixed;
+                  background-size: cover; 
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  }
+            body::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 1500%;
+                    background-color: rgba(255, 255, 255, 0.7); /* Superposición blanca con 70% de transparencia */
+                    z-index: -1; /* Asegura que esté detrás del contenido */
+                }          
+        </style>
+
+
+  <title>Pinto tus pasos</title>
+<!-- 
+
+Beauty Template
+
+http://www.templatemo.com/tm-519-beauty
+
+-->
+<!-- comment<script>
+    // detect IE8 and above, and edge
+    if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+        alert('Please use Chrome or Firefox for best browsing experience!');
+    }
+  </script>-->
+
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">                                <!-- Font awesome -->
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="css/templatemo-style.css">                                     <!-- Templatemo style -->
+
+</head>
+
+<body>
+
+  <!-- 
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  -->
+
+  <div class="container">
+    <div class="tm-top-bar"></div>
+
+    <!-- Welcome section -->
+    <section class="tm-welcome">
+
+      <div class="tm-welcome-left">
+        <!-- Logo -->
+        <div class="tm-logo">
+          <img src="img/logo2.png"
+             alt="Logo"
+             width="300" 
+             height="300"
+             style="border: none; box-shadow: none;">
+        </div>
+        <div class="tm-welcome-content">
+          <!-- fa icons -->
+          <div class="tm-welcome-icons-container">
+            <a
+                href="https://www.facebook.com/pintotuspasos?locale=es_LA">
+                <i class="fab fa-facebook fa-5x tm-welcome-icon" style="color: white;"></i>
+            </a>
+            <a
+                href="https://www.instagram.com/pinto_tus_pasos?igsh=cG1xNnJraTRlMTJ6">
+                <i class="fab fa-instagram fa-5x tm-welcome-icon" style="color:white;"></i>
+            </a>
+          </div>
+
+          <h2 class="tm-mb-25">PINTO TUS PASOS</h2>
+          <p class="tm-font-big"><a rel="nofollow"  target="_parent" style="color: yellow;"> ✨ Bienvenidos a Pinto tus Pasos ✨. Donde cada paso cuenta una historia y cada prenda se convierte en una obra de arte.</a> ¿Quieres llevar tu creatividad al siguiente nivel? En Pinto tus Pasos, ¡tú tienes el control! Nos adaptamos a lo que sueñas, pintamos lo que imaginas y hacemos realidad tus ideas más originales. 🎨
+
+🔹 Explora nuestra colección
+🔹 Crea tu propio diseño personalizado
+🔹 Participa en nuestros talleres de puntillismo y arteterapia.
+
+¡Únete a la comunidad de aquellos que llevan el arte consigo a donde vayan! Porque en Pinto tus Pasos, cada paso tiene un propósito y un toque personal. 💫
+
+ <a target="_blank" style="color: yellow;"> 👉Descubre más en nuestra página web o redes sociales y comienza a caminar con estilo.</p>
+          <a href="#" class="tm-welcome-link tm-font-big">Continue...</a>
+        </div>
+      </div>
+      <div class="tm-welcome-right"></div>
+
+    </section>
+    <div class="tm-bar-2"></div>
+
+    <section class="row tm-section-mb tm-section-2">
+      <div class="col-md-12 tm-section-2-inner">
+        <div class="tm-section-2-left">
+              <div class="tm-img-container tm-img-container-1"></div>
+              <div class="tm-img-container tm-img-container-2"></div>
+        </div>
+        <div class="tm-section-2-right tm-bg-primary"> 
+            <i class="fas fa-users fa-5x tm-welcome-icon d-block text-center ml-0"></i>
+            <h2 class="tm-mb-35">Quienes somos</h2>
+            <p>Pinta tus Pasos es un emprendimiento dedicado a la personalización artística de calzado, ropa y accesorios. A través de técnicas manuales y diseños únicos, cada prenda se convierte en una obra de arte exclusiva, adaptada a los gustos y preferencias de cada cliente.</p>
+            <p class="tm-p-ml">Los trabajos realizados por Pinta tus Pasos destacan por su creatividad, atención al detalle y la posibilidad de convertir un elemento cotidiano como los zapatos en una expresión de estilo personal.</p>          
+        </div>
+      </div>
+    </section>
+
+    <section class="row tm-section-3">
+      <div class="col-md-12 tm-section-3-inner">
+        <div class="tm-section-3-left tm-bg-primary">
+            
+            <i class="fas fa-compass fa-5x tm-welcome-icon d-block text-center ml-0"></i>
+            <h2 class="tm-mb-35">Objetivo</h2>
+            <p>El propósito de Pinta tus Pasos es brindar una experiencia artística única a sus clientes, permitiéndoles expresar su individualidad a través del calzado. Cada paso que den llevará consigo una historia personal, un diseño que no podrá encontrarse en ninguna tienda, y un sello de originalidad.</p>
+            <a href="#" class="d-block tm-welcome-link">Continue...</a>
+          
+        </div>
+        <div class="tm-section-3-right">
+          <div class="tm-img-container tm-img-container-3"></div>
+        </div>
+      </div>
+    </section><br>
+    
+    <div class="tm-bar-2"></div>
+    <section class="row tm-section-pt tm-section-pb">
+      <div class="col-md-6 mx-auto text-center">
+          <div class="oval-message">
+             <div class="comment-bubble">
+        <h2 class="tm-text-dark tm-mb-50" style="color: #C8102E;">NUESTROS TRABAJOS</h2>
+        <p class="tm-text-light-dark tm-font-big" style="color: #C8102E;">Pinto tus Pasos utiliza el arte como medio para transformar artículos cotidianos en expresiones únicas de estilo personal. Cada pieza es intervenida a mano, asegurando que cada cliente reciba un producto exclusivo, con diseños que reflejan su identidad y preferencias.</p>
+             </div>
+          </div>
+      </div>    
+    </section>
+
+    <section class="row tm-section-pb">
+      <div class="col-md-12 tm-bg-accent tm-gallery-pad tm-gallery-container mx-auto">
+        <h2 class="text-center tm-mb-45">Galería de imágenes</h2>
+        <div class="grid tm-gallery">
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/catalogo/zapatillas/zap_1.jpeg" alt="Image">
+            <figcaption>
+              <p>Diseño a pincel de Dragon Boll.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/catalogo/zapatillas/zap_2.jpeg" alt="Image">
+            <figcaption>
+              <p>Diseño fondo naranjo y puntos negros.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/catalogo/prendas/prenda_1.jpg" alt="Image">
+            <figcaption>
+              <p>Diseño de un ada esbozada en una minifalda.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/catalogo/prendas/prenda_2.jpg" alt="Image">
+            <figcaption>
+              <p>Diseño de un conejo por medio de pinceles en una polera.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/catalogo/chaquetas/chaqueta_1.jpg" alt="Image">
+            <figcaption>
+              <p>Diseño de The Beatles plasmados en mezclilla.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/catalogo/chaquetas/chaqueta_2.jpg" alt="Image">
+            <figcaption>
+              <p>Diseño a pedido del cliente plasmado en mezclilla a mano.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/catalogo/accesorios/accesorio_1.jpg" alt="Image">
+            <figcaption>
+              <p>Diseño para niños con pinceles en un cubo.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/catalogo/accesorios/accesorio_6.jpg" alt="Image">
+            <figcaption>
+              <p>Diseño de aros, creación propia.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="row tm-section-pt tm-section-pb">
+      <div class="col-md-6 mx-auto text-center">
+         <div class="oval-message">
+           <div class="comment-bubble">
+          <h2 class="tm-text-dark tm-mb-50" style="color: #003399;">Materiales y Técnica</h2>
+          <p class="tm-text-light-dark tm-font-big" style="color: #003399;">Utilizando pinturas especializadas para telas y cuero, cada trabajo se asegura de ser resistente y duradero. Las técnicas de pincel, aerografía y sellado garantizan que los diseños no solo sean vibrantes, sino también funcionales para el uso diario.</p><br>
+           </div>
+         </div><!-- comment -->     
+      </div>       
+    </section>
+    
+
+    <div class="tm-bar-2"></div>
+
+    <section class="row tm-section-pt tm-section-pb">
+        <div class="col-md-6 mx-auto text-center">
+            <div class="oval-message">
+             <div class="comment-bubble">
+                <h2 class="tm-text-dark tm-mb-50" style="color: #76544D;">NUESTROS TALLERES</h2>
+                <p class="tm-text-light-dark tm-font-big" style="color: #76544D;">Pinta tus Pasos ofrece talleres de arteterapia y puntillismo, brindando a los participantes un espacio de expresión creativa y bienestar emocional. Estos talleres están diseñados para personas de todas las edades que deseen explorar el arte como una herramienta de sanación y relajación, al mismo tiempo que desarrollan habilidades artísticas únicas.</p>
+             </div>
+            </div><!-- comment -->
+        </div>
+    </section>
+    <section class="row tm-section-pb">
+      <div class="col-md-12 tm-bg-accent tm-gallery-pad tm-gallery-container mx-auto">
+        <h2 class="text-center tm-mb-45">Galería de imágenes</h2>
+        <div class="grid tm-gallery">
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/talleres/taller_1.jpg" alt="Image">
+            <figcaption>
+              <p>Obra desarrollada en taller de Puntillismo.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/talleres/taller_2.jpg" alt="Image">
+            <figcaption>
+              <p>Obra desarrollada en taller de Arteterapia.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/talleres/taller_3.jpg" alt="Image">
+            <figcaption>
+              <p>Obra desarrollada en taller de Puntillismo.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/talleres/taller_4.jpg" alt="Image">
+            <figcaption>
+              <p>Obra convina Puntillismo y Arteterapia.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/talleres/taller_5.jpg" alt="Image">
+            <figcaption>
+              <p>Obra basada en Arteterapia.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/talleres/taller_6.jpg" alt="Image">
+            <figcaption>
+              <p>Obra desarrollada en Arteterapia.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/talleres/taller_7.jpg" alt="Image">
+            <figcaption>
+              <p>Obra desarrollada en Arteterapia.</p>
+            </figcaption>
+          </figure>
+          <figure class="effect-lexi tm-gallery-item">
+            <img src="img/talleres/taller_8.jpg" alt="Image">
+            <figcaption>
+              <p>Obra desarrollada en Arteterapia.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    
+    <section class="row tm-section-pt tm-section-pb">
+      <div class="col-md-6 mx-auto text-center">
+          <div class="oval-message">
+             <div class="comment-bubble">
+          <h2 class="tm-text-dark tm-mb-50" style="color: #316432;">Arteterapia</h2>
+          <p class="tm-text-light-dark tm-font-big" style="color: #316432;">Combina técnicas artísticas con dinámicas terapéuticas para fomentar la autoexploración, el manejo del estrés y el bienestar emocional. A través de diversas formas de expresión artística, los participantes se conectan con sus emociones.</p><Br>
+          </div> 
+    </section>
+    <section class="row tm-section-pt tm-section-pb">
+      <div class="col-md-6 mx-auto text-center">
+          <div class="oval-message">
+             <div class="comment-bubble">
+           <h2 class="tm-text-dark tm-mb-50" style="color: #C8102E;">Puntillismo</h2>
+        <p class="tm-text-light-dark tm-font-big" style="color: #C8102E;">Se enfoca en una técnica artística basada en la creación de imágenes, patrones y formas a través de pequeños puntos. Esta actividad, que requiere paciencia y concentración, es ideal para quienes buscan una experiencia meditativa y relajante</p>
+             </div>
+          </div><!-- comment -->
+      </div>
+    </section>
+    
+    <div class="tm-bar-2"></div><br>
+
+    <section class="row">
+      <div class="col-md-7 d-flex tm-contact-left-col">
+        <div class="tm-bg-primary tm-contact-left">
+          <div class="tm-contact-left-inner">
+            <h2 class="text-center tm-mb-40 tm-contact-header">CONTACTANOS</h2>
+            <p class="tm-line-height-2 mb-5">
+                                             ¡Estamos aquí para ayudarte! 
+                                             Completa el formulario de contacto a continuación o utiliza cualquiera de nuestras vías de comunicación. </p>
+            <div class="mb-2 tm-font-normal">
+              Celular: <a href="tel:0900900990" class="mt-5 tm-contact-link">+56 9 90908080</a>
+            </div>
+            <div class="mb-2 tm-font-normal">
+              Email: <a href="mailto:info@company.com" class="tm-contact-link">contacto@pintotuspasos.cl</a>
+            </div><br>
+            
+            <div class="tm-welcome-icons-container">
+            <a
+                href="https://www.facebook.com/pintotuspasos?locale=es_LA">
+                <i class="fab fa-facebook fa-2x tm-welcome-icon" style="color: white;"></i>
+            </a>
+            <a
+                href="https://www.instagram.com/pinto_tus_pasos?igsh=cG1xNnJraTRlMTJ6">
+                <i class="fab fa-instagram fa-2x tm-welcome-icon" style="color:white;"></i>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <form action="#" method="post" class="tm-contact-form">
+          <div class="form-group mb-4">
+            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Nombre" required/>
+          </div>
+          <div class="form-group mb-4">
+            <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
+          </div>
+          <div class="form-group mb-4">
+            <textarea rows="6" id="contact_message" name="contact_message" class="form-control" placeholder="Mensaje" required></textarea>
+          </div>
+          <div class="form-group mb-0">
+            <button type="submit" class="btn btn-primary tm-btn-round tm-fl-right">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  <footer class="pt-4 pb-4">
+    <p class="text-center tm-text-light-dark" style="color: black">Copyright & copy: 2024 Pinto tus pasos 
+    
+    | Design: <a rel="nofollow" href="http://templatemo.com" class="tm-text-light-dark" style="color: black">Gabriela y Germán</a></p>
+  </footer>
+
+</div> <!-- container -->
+
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="slick/slick.min.js"></script>
+
+<!-- comment
+<script>
+
+   $(function(){
+    $('.tm-gallery').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 2,
+      responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+    });
+  });
+
+</script>
+-->
+</body>
+</html>
